@@ -19,13 +19,14 @@ Please note that the integration with the ChatGPT API requires a paid model from
 7. To test if the extension is working correctly, visit any website (e.g., a linked post, an email, or anything) where you can input text.
 
 8. Type the help command in the input field where you want to retrieve a solution. The help command format is as follows:
+9. 
  `help: instructions;`
 
-9. Replace instructions with your specific question or problem that you need assistance with.
+10. Replace instructions with your specific question or problem that you need assistance with.
 
-10. After typing the help command, press Enter. eZee will communicate with the ChatGPT API using your configured API key.
+11. After typing the help command, press Enter. eZee will communicate with the ChatGPT API using your configured API key.
 
-11. If the extension is working correctly and you have provided correct command, it will automatically replace the help command with the solution obtained from ChatGPT. 
+12. If the extension is working correctly and you have provided correct command, it will automatically replace the help command with the solution obtained from ChatGPT. 
 
 ## Debugging
 * If you encounter any issues or want to debug the extension, you can use the following steps:
