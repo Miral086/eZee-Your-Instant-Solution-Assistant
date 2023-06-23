@@ -9,7 +9,7 @@ async function sendChatGPTRequest(instruction) {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer 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' // Replace with your actual API key
+      'Authorization': 'Bearer 'Your_API_Key' // Replace with your actual API key
     },
     body: JSON.stringify({
       'messages': [
