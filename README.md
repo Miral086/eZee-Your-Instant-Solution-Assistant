@@ -19,8 +19,7 @@ Please note that the integration with the ChatGPT API requires a paid model from
 7. To test if the extension is working correctly, visit any website (e.g., a linked post, an email, or anything) where you can input text.
 
 8. Type the help command in the input field where you want to retrieve a solution. The help command format is as follows:
-
-### help: instructions; 
+ `help: instructions;`
 
 9. Replace instructions with your specific question or problem that you need assistance with.
 
