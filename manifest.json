@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "eZee",
+  "version": "1.0",
+  "description": "eZee is a time-saving Chrome extension that integrates with the ChatGPT API, allowing you to quickly access solutions without the hassle of manually copying and pasting. With eZee, you can effortlessly retrieve answers and information from ChatGPT by simply using a command that looks like 'help:give your instructions;'",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "",
+    "default_icon": {
+      "16": "icon48.png",
+      "48": "icon48.png",
+      "128": "icon48.png"
+    },
+    "default_title": "ChatGPT Extension",
+    "action_handlers": {
+      "executeScript": {
+        "matches": ["<all_urls>"],
+        "script": "../Chrome Extension/content.js"
+      }
+    }
+  }
+}
