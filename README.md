@@ -20,7 +20,8 @@ Please note that the integration with the ChatGPT API requires a paid model from
 
 8. Type the help command in the input field where you want to retrieve a solution. The help command format is as follows:
 
-** help: instructions; **
+### help: instructions; 
+
 9. Replace instructions with your specific question or problem that you need assistance with.
 
 10. After typing the help command, press Enter. eZee will communicate with the ChatGPT API using your configured API key.
